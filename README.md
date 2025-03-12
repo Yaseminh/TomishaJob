@@ -27,7 +27,7 @@
 
 ## 1. GitHub Repository
 
-[Tomisha GitHub Repository](https://github.com/Yaseminh/Tomisha)
+[Tomisha GitHub Repository](https://github.com/Yaseminh/TomishaJob)
 
 ## 2. Collection
 
