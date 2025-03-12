@@ -65,7 +65,7 @@ Time: 2 minutes
 
 Monolithic: Everything is in a single application. It provides rapid development in small projects, but can be difficult to manage in large projects.
 Microservices: The application is separated into different services, each of which can be scaled independently. It provides better scalability in large projects, but complexity increases.
-Monolithic may be prefe![img_2.png](img_2.png)rred in small projects and in cases where rapid development is required; Microservices will be suitable for larger and more complex projects.
+Monolithic may be prefered in small projects and in cases where rapid development is required; Microservices will be suitable for larger and more complex projects.
 
 Time: half hour
 
