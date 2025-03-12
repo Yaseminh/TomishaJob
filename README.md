@@ -58,11 +58,7 @@ async function getUser(id: string) {
 Time: 1 minute
 
 Timed Error Conditions: Error messages should generally be more meaningful to the user, for example using HTTP errors instead of user not found and returning a more descriptive response.
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1816e68 (README güncellendi)
 Time: 2 minutes
 
 ## Architecture Understanding - Architecture Understanding
@@ -84,11 +80,7 @@ I consider the indexing costs (disk and memory usage), so I only add indexes for
 Estimated Time: 1-2 hours (Indexes will be created and tested on the database.)
 
 Caching
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1816e68 (README güncellendi)
 Purpose: Instead of frequently made queries going to the database every time, provide fast access by caching the results.
 Actions:
 We keep frequently made search queries in memory by using a caching tool such as Redis.
@@ -98,11 +90,7 @@ By limiting the cache to a certain time, I ensure that the data remains up-to-da
 Estimated Time: 2-3 hours (Including Redis installation, configuration, and testing.)
 
 Query Structure Optimization
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1816e68 (README güncellendi)
 Goal: Make queries more efficient. This includes minimizing unnecessary data retrieval, complex JOIN, or $lookup operations.
 Actions:
 I analyze database queries to prevent unnecessary data retrieval. For example, only pull summary information for job postings that will be displayed as a search result.
@@ -120,11 +108,7 @@ I can use query optimizations on Mongoose (e.g. .lean(), .select()).
 Estimated Time: 2 hours (Customized data models and tests.)
 
 Monitoring and Profiling
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1816e68 (README güncellendi)
 Objective: To better identify performance bottlenecks and develop the right solution.
 Actions:
 I use appropriate tools to monitor the API (e.g. performance monitoring with New Relic or Prometheus).
@@ -149,11 +133,7 @@ Total Time: Approximately 8-11 hours (With Tests)
 This time may vary depending on the complexity of the optimization and may vary depending on the current database structure and API usage. If you have not used Redis before, it may take a little more time during the configuration and testing phase. However, in general, it can take 1-2 business days to complete the optimization with basic steps and tests
 
 ## Communication & Independence
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1816e68 (README güncellendi)
 How Do You Deal with Unknown Requirements?: I clarify the requirements by asking questions and fill in the missing information.
 What Do You Do When You Are Stuck?: I try to debug first, then I get help from communities or mentors.
 How Do You Ensure Code Quality?: I follow code standards to ensure that the code is readable, understandable and testable.
